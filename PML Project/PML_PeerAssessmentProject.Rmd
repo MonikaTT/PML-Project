@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 #An Analysis of the Weight Lifting Exercises Dataset
 ###Peer Assessment Project for Practical Machine Learning Course
 ####Author: Monika Traple
@@ -67,7 +72,7 @@ fit<-randomForest(classe~., data=training)
 ```
 
 The model shows following importance of the variables included:
-```{r}
+```{r, echo=TRUE}
 varImpPlot(fit)
 ```
 
