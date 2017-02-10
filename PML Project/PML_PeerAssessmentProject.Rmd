@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 #An Analysis of the Weight Lifting Exercises Dataset
 ###Peer Assessment Project for Practical Machine Learning Course
